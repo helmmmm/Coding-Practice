@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class Printer 
 {
@@ -24,6 +26,13 @@ public class Printer
                 errorCount++;
         }
 
+        return $"{errorCount}/{s.Length}";
+    }
+
+    public static string LinqPrinterError(String s) 
+    {
+        var colors = new HashSet<char>("abcdefghijklm");
+        int errorCount = s.Count(c => !colors.Contains(c));
         return $"{errorCount}/{s.Length}";
     }
 }
