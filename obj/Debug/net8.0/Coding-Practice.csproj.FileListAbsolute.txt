@@ -1,0 +1,5 @@
+/Users/aj/Desktop/Canvas/Coding-Practice/obj/Debug/net8.0/Coding-Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aj/Desktop/Canvas/Coding-Practice/obj/Debug/net8.0/Coding-Practice.AssemblyInfoInputs.cache
+/Users/aj/Desktop/Canvas/Coding-Practice/obj/Debug/net8.0/Coding-Practice.AssemblyInfo.cs
+/Users/aj/Desktop/Canvas/Coding-Practice/obj/Debug/net8.0/Coding-Practice.csproj.CoreCompileInputs.cache
+/Users/aj/Desktop/Canvas/Coding-Practice/obj/Debug/net8.0/Coding-Practice.sourcelink.json
