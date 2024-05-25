@@ -1,0 +1,22 @@
+using System;
+using System.Numerics;
+
+public class SumFct
+{
+    public static BigInteger perimeter(BigInteger n) 
+    {
+        BigInteger a = 0;
+        BigInteger b = 1;
+        BigInteger sum = 1;
+
+        for (BigInteger i = 0; i < n; i++)
+        {
+            BigInteger next = a + b;
+            sum += next;
+            a = b;
+            b = next;
+        }
+
+        return 4 * sum;
+    }
+}
