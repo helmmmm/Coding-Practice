@@ -1,0 +1,29 @@
+using System;
+    
+public class KnightRescue
+{
+    public bool Rescuable(int[] n, int x, int y)
+    {
+        for (int i = 0; i < n.Length; i++)
+        {
+            if (n[i] != Math.Abs(x) || n[i] != Math.Abs(y))
+                continue;
+            
+            if (n[i] == x)
+            {
+                if (Math.Abs(y) == 1)
+                    return true;
+                else
+                    continue;
+            }
+            else if (n[i] == y)
+            {
+                if (Math.Abs(x) == 1)
+                    return true;
+                else
+                    continue;
+            }
+        }
+        return false;
+    }
+}
